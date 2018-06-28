@@ -16,7 +16,7 @@ public interface APIService {
     //get_evidence_category_request
     @FormUrlEncoded
     @POST("get_evidence_category_request")
-    Call<FrameworkRepsonse> getFrameworkTitles(@Field("CATEGORY_ID") int CATEGORY_ID);
+    Call<FrameworkRepsonse> getFrameworkTitles(@Field("CATEGORY_ID") int CATEGORY_ID,@Field("CLASS_ID") int CLASS_ID);
 
 
 }

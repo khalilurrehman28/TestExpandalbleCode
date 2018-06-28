@@ -4,8 +4,6 @@ package com.example.khalilurrehman.testexpandalblecode.Network;
  * Created by mandeep on 6/7/17.
  */
 
-
-import com.dupleit.kotlin.primaryschoolassessment.otherHelper.Utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -17,7 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = Utils.webUrl;
+    public static final String BASE_URL = "http://demo.dupleit.com/evidence/api/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
