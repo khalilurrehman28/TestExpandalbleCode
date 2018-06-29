@@ -23,11 +23,11 @@ public class FrameworkDataLs {
 
     private Boolean isSelected;
 
-    public FrameworkDataLs(String frameworktitle, String categoryid, String frameworkid, boolean b) {
+    public FrameworkDataLs(String frameworktitle, String categoryid, String frameworkid,boolean isSelected) {
         this.fRAMEWORKID = frameworkid;
         this.cATEGORYID = categoryid;
         this.fRAMEWORKTITLE = frameworktitle;
-        this.isSelected = b;
+        this.isSelected = isSelected;
     }
 
     public Boolean getSelected() {

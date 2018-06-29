@@ -43,7 +43,7 @@ public class FrameSub {
     private Boolean isSelected;
     private Integer marks;
 
-    public FrameSub(String frameworksub, String frameworkid, String frameworktitle, Object categoryid, Integer marks, String score, String remark, Boolean selected) {
+    public FrameSub(String frameworksub, String frameworkid, String frameworktitle, Object categoryid, Integer marks, String score, String remark,boolean isSelected) {
         this.fRAMEWORKSUB =frameworksub;
         this.fRAMEWORKID = frameworkid;
         this.fRAMEWORKTITLE = frameworktitle;
@@ -51,7 +51,7 @@ public class FrameSub {
         this.marks = marks;
         this.sCORE= score;
         this.rEMARK = remark;
-        this.isSelected = selected;
+        this.isSelected = isSelected;
     }
 
     public Boolean getSelected() {
